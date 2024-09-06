@@ -1,0 +1,23 @@
+.main{
+    width: clamp(250px,70vw,1000px);
+   height: clamp(300px,50vh,1000px);
+    margin: auto;
+    background-color: gainsboro;
+  }
+  .showAnswer{
+    border: 1px solid red;
+    display: block;
+  }
+  .hideAnswer{
+    border: 1px solid red;
+    display: none;
+  }
+  .question>span{
+    margin: 5px;
+  }
+  .answer{
+    margin: 5px;
+  }
+  .hide{
+    display: none;
+  }
